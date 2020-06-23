@@ -1,0 +1,63 @@
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe.config
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.pdb
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Login.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Properties.Resources.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.GenerateResource.cache
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CopyComplete
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Admin.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.AddDoctor.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.AddPAtient.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Dashboardcs.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.AddMedicine.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Doctor.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.GenerateBill.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.GenerateReport.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Salary.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Admin.AddPharmist.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Admin.AddReception.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Patient.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Pharmacy.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Reciption.resources
+C:\Users\saim\Documents\Visual Studio 2017\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Doctor.ViewPatient.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe.config
+D:\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.exe
+D:\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalManagementSystem.pdb
+D:\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\WindowsFormsApplication2.exe
+D:\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\WindowsFormsApplication2.pdb
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.AddDoctor.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Admin.AddPharmist.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Admin.AddReception.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Admin.Form1.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Admin.ViewDoctor.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Admin.ViewMedicine.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Admin.ViewPatient.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Admin.ViewPharmist.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Admin.ViewReception.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Doctor.ViewPatient.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Patient.ViewReport.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.AddMedicine.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.AddPAtient.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Admin.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Doctor.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.GenerateBill.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.GenerateReport.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Login.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Properties.Resources.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Patient.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Pharmacy.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Reciption.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Salary.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.Views.Reception.Reprot.resources
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.GenerateResource.cache
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CoreCompileInputs.cache
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CopyComplete
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+D:\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojAssemblyReference.cache

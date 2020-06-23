@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{868EF10B-D3AC-4527-8C33-5CE1CA5AA468}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HospitalManagementSystem</RootNamespace>
+    <AssemblyName>HospitalManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Downloads\Autoshow\Autoshow\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsFormsApplication2">
+      <HintPath>D:\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\CAddPAtient.cs" />
+    <Compile Include="Controllers\CgenrateReport.cs" />
+    <Compile Include="Controllers\CMedicine.cs" />
+    <Compile Include="Controllers\CPharmist.cs" />
+    <Compile Include="Controllers\CReception.cs" />
+    <Compile Include="Controllers\CDoctor.cs" />
+    <Compile Include="Controllers\CCReport.cs" />
+    <Compile Include="Models\MAddPAtient.cs" />
+    <Compile Include="Models\MAvalibleDays.cs" />
+    <Compile Include="Models\MAddDoctor.cs" />
+    <Compile Include="Models\MAddPharmist.cs" />
+    <Compile Include="Models\Medicine.cs" />
+    <Compile Include="Models\MReception.cs" />
+    <Compile Include="Models\OfferedMedicine.cs" />
+    <Compile Include="Models\Report.cs" />
+    <Compile Include="Models\UserId.cs" />
+    <Compile Include="Views\Admin\AddDoctor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\AddDoctor.Designer.cs">
+      <DependentUpon>AddDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\AddPharmist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\AddPharmist.Designer.cs">
+      <DependentUpon>AddPharmist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\AddReception.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\AddReception.Designer.cs">
+      <DependentUpon>AddReception.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\ViewDoctor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\ViewDoctor.Designer.cs">
+      <DependentUpon>ViewDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\ViewMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\ViewMedicine.Designer.cs">
+      <DependentUpon>ViewMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\ViewPatient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\ViewPatient.Designer.cs">
+      <DependentUpon>ViewPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\ViewPharmist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\ViewPharmist.Designer.cs">
+      <DependentUpon>ViewPharmist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\ViewReception.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\ViewReception.Designer.cs">
+      <DependentUpon>ViewReception.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Doctor\ViewPatient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Doctor\ViewPatient.Designer.cs">
+      <DependentUpon>ViewPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Patient\ViewReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Patient\ViewReport.Designer.cs">
+      <DependentUpon>ViewReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pharmist\AddMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pharmist\AddMedicine.Designer.cs">
+      <DependentUpon>AddMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Reception\AddPAtient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Reception\AddPAtient.Designer.cs">
+      <DependentUpon>AddPAtient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\DatabaseHelper.cs" />
+    <Compile Include="Views\Doctor\Doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Doctor\Doctor.Designer.cs">
+      <DependentUpon>Doctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Reception\GenerateBill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Reception\GenerateBill.Designer.cs">
+      <DependentUpon>GenerateBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Doctor\GenerateReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Doctor\GenerateReport.Designer.cs">
+      <DependentUpon>GenerateReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Login\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Patient\Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Patient\Patient.Designer.cs">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Pharmist\Pharmacy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Pharmist\Pharmacy.Designer.cs">
+      <DependentUpon>Pharmacy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Reception\Reciption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Reception\Reciption.Designer.cs">
+      <DependentUpon>Reciption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Salary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Salary.Designer.cs">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Reception\Reprot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Reception\Reprot.Designer.cs">
+      <DependentUpon>Reprot.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\Admin\AddDoctor.resx">
+      <DependentUpon>AddDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\AddPharmist.resx">
+      <DependentUpon>AddPharmist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\AddReception.resx">
+      <DependentUpon>AddReception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\ViewDoctor.resx">
+      <DependentUpon>ViewDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\ViewMedicine.resx">
+      <DependentUpon>ViewMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\ViewPatient.resx">
+      <DependentUpon>ViewPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\ViewPharmist.resx">
+      <DependentUpon>ViewPharmist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\ViewReception.resx">
+      <DependentUpon>ViewReception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Doctor\ViewPatient.resx">
+      <DependentUpon>ViewPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Patient\ViewReport.resx">
+      <DependentUpon>ViewReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pharmist\AddMedicine.resx">
+      <DependentUpon>AddMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Reception\AddPAtient.resx">
+      <DependentUpon>AddPAtient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Doctor\Doctor.resx">
+      <DependentUpon>Doctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Reception\GenerateBill.resx">
+      <DependentUpon>GenerateBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Doctor\GenerateReport.resx">
+      <DependentUpon>GenerateReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Login\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\Patient\Patient.resx">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pharmist\Pharmacy.resx">
+      <DependentUpon>Pharmacy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Reception\Reciption.resx">
+      <DependentUpon>Reciption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Salary.resx">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Reception\Reprot.resx">
+      <DependentUpon>Reprot.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ll.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
